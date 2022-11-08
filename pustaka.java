@@ -14,15 +14,15 @@ public class pustaka {
         novel n3 = new novel("Harry Potter",0103, "J. K. Rowling", "Fantasy");
         novel n4 = new novel("Max Havelaar", 0104,"Eduard Douwes Dekker", "History");
 
-        sains s1 = new sains(judul: "Kartun Statistik", 0201, "Woollcott Smith", "Statistika");
-        sains s2 = new sains(judul: "Kimia Forensik", KodeBuku: 0202, "prof.Riyanto,ph.D.", "Kimia");
-        sains s3 = new sains(judul: "Biologi sel", KodeBuku:0203, Pengarang: "Oeke Yunita", "Biologi");
-        sains s4 = new sains(judul: "Anatomi Hewan", KodeBuku:0204, Pengarang: "Ruqiah Ganda Panjaitan", "Struktur Hewan");
+        sains s1 = new sains("Kartun Statistik", 0201, "Woollcott Smith", "Statistika");
+        sains s2 = new sains("Kimia Forensik", 0202, "prof.Riyanto,ph.D.", "Kimia");
+        sains s3 = new sains("Biologi sel", 0203, "Oeke Yunita", "Biologi");
+        sains s4 = new sains("Anatomi Hewan", 0204, "Ruqiah Ganda Panjaitan", "Struktur Hewan");
 
-        sejarah sj1 = ne
-        sejarah sj2 = 
-        sejarah sj3 = 
-        sejarah sj4
+        sejarah sj1 = new sejarah("Sejarah Dunia yang Disembunyikan",0301 , "Jonathan Black", "");
+        sejarah sj2 = new sejarah("Sapiens", 0302, "", "");
+        sejarah sj3 = new sejarah("The History of the Ancient World", , "", "");
+        sejarah sj4 = new sejarah("Percakapan Dengan Stalin", , "", "");
 
         System.out.println("        SELAMAT DATANG DI PUSTAKA BERKAH BELAJAR BERSAMA        ");
 
