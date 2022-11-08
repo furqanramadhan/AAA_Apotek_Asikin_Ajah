@@ -9,17 +9,20 @@ public class pustaka {
 
         Scanner input = new Scanner(System.in);
 
-        novel n1 = new novel("Laskar Pelangi", 1, "Andrea Hinata", "Slice of Life");
-        novel n2 = new novel("Pulang-Pergi", 2, "Tere Liye", "Aksi");
-        novel n3 = new novel("Surat dari Kematian", 3, "Adham T Fusama", "Horror");
+        novel n1 = new novel();
+        novel n2 = new novel();
+        novel n3 = new novel();
+        novel n4 = new novel();
 
-        sains inf1 = new sains("Pemograman Java Dasar", 5, "Muhammad Boediono", "PBO");
-        sains inf2 = new sains("Basis Data Lanjutan 2021", 7, "Steven Surya", "BDL");
-        sains umum1 = new sains("Bahasa Inggris Kuliah Umum", 4, "Heri Rosiadi", "B.Inggris");
-        sains umum2 = new sains("Gerbang Logika ", 6, "Zahnur", "Logika");
+        sains s1 = new sains();
+        sains s2 = new sains("Basis Data Lanjutan 2021", 7, "Steven Surya", "BDL");
+        sains s3 = new sains("Bahasa Inggris Kuliah Umum", s4, "Heri Rosiadi", "B.Inggris");
+        sains s4 = new sains("Gerbang Logika ", 6, "Zahnur", "Logika");
 
         sejarah sj1 = new sejarah("Sejarah Benua Eropa", 8, "Wahjudi Djaja", "Europe");
         sejarah sj2 = new sejarah(nama, kembali, nama, nama);
+        sejarah sj3 = 
+        sejarah sj4
 
         System.out.println("        SELAMAT DATANG DI PUSTAKA BERKAH BELAJAR BERSAMA        ");
 
