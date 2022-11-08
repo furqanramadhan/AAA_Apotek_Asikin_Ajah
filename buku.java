@@ -1,25 +1,29 @@
-public class buku extends abstrackBuku{
+public class buku extends abstractBuku {
     private String judul;
     private int kodeBuku;
     private String pengarang;
-    
-    public buku(String judul,int kodeBuku,String pengarang){
+
+    public buku(String judul, int kodeBuku, String pengarang) {
 
         this.judul = judul;
-        this.kodeBuku=kodeBuku;
-        this.pengarang=pengarang;
+        this.kodeBuku = kodeBuku;
+        this.pengarang = pengarang;
 
     }
-    public String getjudul(){
+
+    public String getjudul() {
         return this.judul;
     }
-    public int getkodeBuku(){
+
+    public int getkodeBuku() {
         return this.kodeBuku;
     }
-    public String getpengarang(){
+
+    public String getpengarang() {
         return this.pengarang;
     }
-    public void available(){
-        
+
+    public void available() {
+
     }
 }
