@@ -11,19 +11,16 @@ public class buku extends abstractBuku {
 
     }
 
-    public String getjudul() {
+    public String getJudul() {
         return this.judul;
     }
 
-    public int getkodeBuku() {
+    public int getKodeBuku() {
         return this.kodeBuku;
     }
 
-    public String getpengarang() {
+    public String getPengarang() {
         return this.pengarang;
     }
 
-    public void available() {
-
-    }
 }
