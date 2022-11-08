@@ -6,4 +6,4 @@ kelompok 6
 
 
 Topik    : Perpustakaan
-Fenomena : Seorang pengunjung meminjam Buku melalui sistem perpustakaan.
+Fenomena : Seorang pengunjung meminjam Buku melalui sistem perpustakaan
