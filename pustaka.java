@@ -9,18 +9,18 @@ public class pustaka {
 
         Scanner input = new Scanner(System.in);
 
-        novel n1 = new novel();
-        novel n2 = new novel();
-        novel n3 = new novel();
-        novel n4 = new novel();
+        novel n1 = new novel("Jurnal Risa", 0101, "Risa Saraswati", "Horror");
+        novel n2 = new novel("Angkasa dan 56 Hati",0102 , "Destashsya", "Romance");
+        novel n3 = new novel("Harry Potter",0103, "J. K. Rowling", "Fantasy");
+        novel n4 = new novel("Max Havelaar", 0104,"Eduard Douwes Dekker", "History");
 
         sains s1 = new sains();
-        sains s2 = new sains("Basis Data Lanjutan 2021", 7, "Steven Surya", "BDL");
-        sains s3 = new sains("Bahasa Inggris Kuliah Umum", s4, "Heri Rosiadi", "B.Inggris");
-        sains s4 = new sains("Gerbang Logika ", 6, "Zahnur", "Logika");
+        sains s2 = new sains();
+        sains s3 = new sains();
+        sains s4 = new sains();
 
-        sejarah sj1 = new sejarah("Sejarah Benua Eropa", 8, "Wahjudi Djaja", "Europe");
-        sejarah sj2 = new sejarah(nama, kembali, nama, nama);
+        sejarah sj1 = ne
+        sejarah sj2 = 
         sejarah sj3 = 
         sejarah sj4
 
