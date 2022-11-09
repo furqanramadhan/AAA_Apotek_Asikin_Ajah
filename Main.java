@@ -2,6 +2,9 @@ import java.util.Scanner;
 
 public class Main {
 
+    /**
+     * 
+     */
     public void runApp() {
         novel n1 = new novel("Jurnal Risa", 0101, "Risa Saraswati", "Horror");
         novel n2 = new novel("Angkasa dan 56 Hati", 0102, "Destashsya", "Romance");
@@ -100,20 +103,9 @@ public class Main {
                     }
 
                 }
+                break;
 
             case 2:
-                buku[0] = n1.getJudul();
-                buku[1] = n2.getJudul();
-                buku[2] = n3.getJudul();
-                buku[3] = n4.getJudul();
-                buku[4] = s1.getJudul();
-                buku[5] = s2.getJudul();
-                buku[6] = s3.getJudul();
-                buku[7] = s4.getJudul();
-                buku[8] = sj1.getJudul();
-                buku[9] = sj2.getJudul();
-                buku[10] = sj3.getJudul();
-                buku[11] = sj4.getJudul();
                 System.out.println("Buku yang tersedia: ");
                 System.out.println(" 1. " + n1.getJudul());
                 System.out.println(" 2. " + n2.getJudul());
@@ -127,6 +119,19 @@ public class Main {
                 System.out.println("10. " + sj2.getJudul());
                 System.out.println("11. " + sj3.getJudul());
                 System.out.println("12. " + sj4.getJudul());
+                buku[0] = n1.getJudul();
+                buku[1] = n2.getJudul();
+                buku[2] = n3.getJudul();
+                buku[3] = n4.getJudul();
+                buku[4] = s1.getJudul();
+                buku[5] = s2.getJudul();
+                buku[6] = s3.getJudul();
+                buku[7] = s4.getJudul();
+                buku[8] = sj1.getJudul();
+                buku[9] = sj2.getJudul();
+                buku[10] = sj3.getJudul();
+                buku[11] = sj4.getJudul();
+
                 System.out.println("Apakah anda ingin melakukan pengembalian ? : (y/n)");
                 pil = sc.next().charAt(0);
                 while (true) {
