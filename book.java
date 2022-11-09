@@ -1,6 +1,9 @@
 /**
- * menyatakan class bernama book serta extends.
- * yaitu inheritance dari abstractbook.
+ * @author Furqan Ramadhan & Ardiansyah
+ * @version 1.5
+ * 
+ *          menyatakan class bernama book serta extends.
+ *          yaitu inheritance dari class book yang bersifat abstrak.
  */
 public abstract class book {
 
@@ -28,7 +31,7 @@ public abstract class book {
     }
 
     /**
-     * @return method accessor untuk mengembalikan kode buku kedalam buku.
+     * @return method accessor untuk mengembalikan kodeBuku kedalam buku.
      */
     public int getKodeBuku() {
         return this.kodeBuku;
