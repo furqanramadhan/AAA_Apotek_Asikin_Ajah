@@ -1,6 +1,9 @@
 /**
- * menyatakan class bernama sains serta extends.
- * yaitu inheritance dari abstractsains.
+ * @author Furqan Ramadhan & Ardiansyah
+ * @version 1.7
+ * 
+ *          menyatakan class bernama sains serta extends.
+ *          yaitu inheritance dari class sains yang bersifat abstrak.
  */
 public class sains extends book {
     private String mk;
