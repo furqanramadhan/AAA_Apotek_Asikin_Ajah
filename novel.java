@@ -1,5 +1,5 @@
 /**
- * menyatakan class bernama novel serta extends
+ * menyatakan class bernama novel serta extends.
  * yaitu inheritance dari abstractnovel.
  */
 public class novel extends buku {
@@ -12,7 +12,6 @@ public class novel extends buku {
      * @param pengarang method constructor untuk menginisialisasikan pengarang.
      * @param genre     method constructor untuk menginisialisasikan genre.
      */
-
     public novel(String judul, int kodeBuku, String pengarang, String genre) {
         super(judul, kodeBuku, pengarang);
         this.genre = genre;

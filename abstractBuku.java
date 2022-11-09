@@ -23,8 +23,5 @@ public abstract class abstractBuku {
      * @return method accessor getPengarang untuk mengembalikan nama pengarang
      */
     public abstract String getPengarang();
-    /**
-     * method getPengarang untuk menyatakan class Pengarang
-     */
 
 }

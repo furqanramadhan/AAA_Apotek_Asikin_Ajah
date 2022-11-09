@@ -17,7 +17,6 @@ public class buku extends abstractBuku {
      * @param pengarang method constructor untuk menginisialisasikan pengarang.
      */
     public buku(String judul, int kodeBuku, String pengarang) {
-
         this.judul = judul;
         this.kodeBuku = kodeBuku;
         this.pengarang = pengarang;
