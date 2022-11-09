@@ -1,8 +1,6 @@
 import java.util.Scanner;
 
-public class main {
-    public main() {
-    }
+public class Main {
 
     public void runApp() {
         novel n1 = new novel("Jurnal Risa", 0101, "Risa Saraswati", "Horror");
@@ -25,7 +23,6 @@ public class main {
         char pil;
         int borrow;
         Guest guest;
-        int returnBook;
         int lamaPinjam;
         String nama;
         String[] buku = new String[12];
@@ -161,10 +158,11 @@ public class main {
                 System.out.println("Terima kasih sudah mampir.");
                 System.exit(1);
         }
+        sc.close();
     }
 
     public static void main(String[] args) {
-        main runApp = new main();
+        Main runApp = new Main();
         runApp.runApp();
     }
 }
