@@ -14,10 +14,10 @@ public class pustaka {
         novel n3 = new novel("Harry Potter",0103, "J. K. Rowling", "Fantasy");
         novel n4 = new novel("Max Havelaar", 0104,"Eduard Douwes Dekker", "History");
 
-        sains s1 = new sains();
-        sains s2 = new sains();
-        sains s3 = new sains();
-        sains s4 = new sains();
+        sains s1 = new sains(judul: "Kartun Statistik", 0201, "Woollcott Smith", "Statistika");
+        sains s2 = new sains(judul: "Kimia Forensik", KodeBuku: 0202, "prof.Riyanto,ph.D.", "Kimia");
+        sains s3 = new sains(judul: "Biologi sel", KodeBuku:0203, Pengarang: "Oeke Yunita", "Biologi");
+        sains s4 = new sains(judul: "Anatomi Hewan", KodeBuku:0204, Pengarang: "Ruqiah Ganda Panjaitan", "Struktur Hewan");
 
         sejarah sj1 = ne
         sejarah sj2 = 
@@ -39,15 +39,17 @@ public class pustaka {
 
             System.out.println(" Daftar Buku :");
 
-            System.out.println(" 1. " + n1.getjudul());
-            System.out.println(" 2. " + n2.getjudul());
-            System.out.println(" 3. " + n3.getjudul());
+            System.out.println(" 1. " + n1.getJudul());
+            System.out.println(" 2. " + n2.getJudul());
+            System.out.println(" 3. " + n3.getJudul());
+            System.out.println(" 4. " + n4.getJudul());
+
 
             System.out.println(" 4. " + inf1.getjudul());
             System.out.println(" 5. " + inf2.getjudul());
             System.out.println(" 6. " + umum1.getjudul());
             System.out.println(" 7. " + umum2.getjudul());
-
+,
             do {
                 System.out.println(" Buku mana yg ingin Anda pinjam?");
                 System.out.println(" Masukkan Pilihan Anda :");
