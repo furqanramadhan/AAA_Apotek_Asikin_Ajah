@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
-public class main {
-    public main() {
+public class Main {
+    public Main() {
     }
 
     /**
@@ -28,7 +28,6 @@ public class main {
         char pil;
         int borrow;
         Guest guest;
-        int returnBook;
         int lamaPinjam;
         String nama;
         String[] buku = new String[12];
@@ -166,10 +165,11 @@ public class main {
                 System.out.println("Terima kasih sudah mampir.");
                 System.exit(1);
         }
+        sc.close();
     }
 
     public static void main(String[] args) {
-        main runApp = new main();
+        Main runApp = new Main();
         runApp.runApp();
     }
 }
