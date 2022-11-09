@@ -1,9 +1,9 @@
 /**
+ * menyatakan class bernama sejarah serta extends.
+ * yaitu inheritance dari class sejarah yang bersifat abstrak.
+ *          
  * @author Furqan Ramadhan & Ardiansyah
- * @version 1.8
- * 
- *          menyatakan class bernama sejarah serta extends.
- *          yaitu inheritance dari class sejarah yang bersifat abstrak.
+ * @version 1.8          
  */
 public class sejarah extends book {
     private String history;

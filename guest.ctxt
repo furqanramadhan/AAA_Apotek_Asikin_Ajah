@@ -1,9 +1,10 @@
 #BlueJ class context
-comment0.target=guest
+comment0.target=Guest
+comment0.text=\r\nmenyatakan\ class\ Guest\r\ndimana\ terdapat\ nama\r\n\ \r\n@author\ Furqan\ Ramadhan\ &\ Ardiansyah\ \r\n@version\ 1.4\r\n
 comment1.params=nama
-comment1.target=guest(java.lang.String)
+comment1.target=Guest(java.lang.String)
+comment1.text=\r\n\ \r\n\ @param\ nama\ method\ constructor\ dengan\ parameter\ untuk\ menginisialisasi\ nama.\r\n
 comment2.params=
 comment2.target=java.lang.String\ getNama()
-comment3.params=
-comment3.target=void\ setNama()
-numComments=4
+comment2.text=\r\n\ \r\n\ @return\ method\ accessor\ digunakan\ untuk\ mengembalikan\ nama\r\n
+numComments=3

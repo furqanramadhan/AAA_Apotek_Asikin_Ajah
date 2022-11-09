@@ -1,9 +1,8 @@
 /**
- * @author Furqan Ramadhan & Ardiansyah
- * @version 1.5
- * 
- *          menyatakan class bernama book serta extends.
- *          yaitu inheritance dari class book yang bersifat abstrak.
+ *menyatakan class bernama book dengan 
+ *bersifat abstrak
+ *@author Furqan Ramadhan & Ardiansyah
+ *@version 1.5
  */
 public abstract class book {
 
@@ -44,5 +43,4 @@ public abstract class book {
         return this.pengarang;
     }
 
-    // abstract void available();
 }

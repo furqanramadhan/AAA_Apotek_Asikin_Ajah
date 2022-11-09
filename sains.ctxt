@@ -1,10 +1,10 @@
 #BlueJ class context
 comment0.target=sains
-comment0.text=\n\ menyatakan\ class\ bernama\ sains\ serta\ extends.\n\ yaitu\ inheritance\ dari\ abstractsains.\n
+comment0.text=\r\n\ \ menyatakan\ class\ bernama\ sains\ serta\ extends.\r\n\ \ yaitu\ inheritance\ dari\ class\ sains\ yang\ bersifat\ abstrak.\r\n\ \ \ \ \ \ \ \ \ \ \r\n\ @author\ Furqan\ Ramadhan\ &\ Ardiansyah\r\n\ @version\ 1.7\r\n\ \ \ \ \ \ \r\n
 comment1.params=judul\ kodeBuku\ pengarang\ mk
 comment1.target=sains(java.lang.String,\ int,\ java.lang.String,\ java.lang.String)
-comment1.text=\n\ \n\ @param\ judul\ \ \ \ \ method\ constructor\ untuk\ menginisialisasikan\ judul.\n\ @param\ kodeBuku\ \ method\ constructor\ untuk\ menginisialisasikan\ KodeBuku.\n\ @param\ pengarang\ method\ constructor\ untuk\ menginisialisasikan\ pengarang.\n\ @param\ mk\ \ \ \ \ \ \ \ method\ constructor\ untuk\ menginisialisasikan\ mk.\n
+comment1.text=\r\n\ \r\n\ @param\ judul\ \ \ \ \ method\ constructor\ untuk\ menginisialisasikan\ judul.\r\n\ @param\ kodeBuku\ \ method\ constructor\ untuk\ menginisialisasikan\ KodeBuku.\r\n\ @param\ pengarang\ method\ constructor\ untuk\ menginisialisasikan\ pengarang.\r\n\ @param\ mk\ \ \ \ \ \ \ \ method\ constructor\ untuk\ menginisialisasikan\ mk.\r\n
 comment2.params=
 comment2.target=java.lang.String\ getmk()
-comment2.text=\n\ \n\ @return\ method\ accessor\ untuk\ mengembalikan\ mk\ kedalam\ buku.\n
+comment2.text=\r\n\ \r\n\ @return\ method\ accessor\ untuk\ mengembalikan\ mk\ kedalam\ buku.\r\n
 numComments=3

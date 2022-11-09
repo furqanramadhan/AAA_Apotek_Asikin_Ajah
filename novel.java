@@ -1,9 +1,9 @@
 /**
- * @author Furqan Ramadhan & Ardiansyah
- * @version 1.6
+ *menyatakan class bernama novel serta extends.
+ * yaitu inheritance dari class novel yang bersifat abstrak.
  * 
- *          menyatakan class bernama novel serta extends.
- *          yaitu inheritance dari class novel yang bersifat abstrak.
+ * @author Furqan Ramadhan & Ardiansyah 
+ * @version 1.6         
  */
 public class novel extends book {
     private String genre;

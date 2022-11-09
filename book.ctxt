@@ -1,14 +1,16 @@
 #BlueJ class context
 comment0.target=book
+comment0.text=\r\nmenyatakan\ class\ bernama\ book\ dengan\ \r\nbersifat\ abstrak\r\n@author\ Furqan\ Ramadhan\ &\ Ardiansyah\r\n@version\ 1.5\r\n
 comment1.params=judul\ kodeBuku\ pengarang
 comment1.target=book(java.lang.String,\ int,\ java.lang.String)
+comment1.text=\r\n\ \r\n\ @param\ judul\ \ \ \ \ method\ constructor\ untuk\ menginisialisasikan\ judul.\r\n\ @param\ kodeBuku\ \ method\ constructor\ untuk\ menginisialisasikan\ KodeBuku.\r\n\ @param\ pengarang\ method\ constructor\ untuk\ menginisialisasikan\ pengarang.\r\n
 comment2.params=
 comment2.target=java.lang.String\ getJudul()
-comment2.text=\n\ @return\ method\ accessor\ untuk\ mengembalikan\ judul\ kedalam\ buku.\n
+comment2.text=\r\n\ @return\ method\ accessor\ untuk\ mengembalikan\ judul\ kedalam\ buku.\r\n
 comment3.params=
 comment3.target=int\ getKodeBuku()
-comment3.text=\n\ @return\ method\ accessor\ untuk\ mengembalikan\ kode\ buku\ kedalam\ buku.\n
+comment3.text=\r\n\ @return\ method\ accessor\ untuk\ mengembalikan\ kodeBuku\ kedalam\ buku.\r\n
 comment4.params=
 comment4.target=java.lang.String\ getPengarang()
-comment4.text=\n\ @return\ method\ accessor\ untuk\ mengembalikan\ pengarang\ kedalam\ buku.\n
+comment4.text=\r\n\ @return\ method\ accessor\ untuk\ mengembalikan\ pengarang\ kedalam\ buku.\r\n
 numComments=5

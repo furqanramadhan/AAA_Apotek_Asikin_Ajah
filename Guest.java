@@ -1,9 +1,9 @@
 /**
- * @author Furqan Ramadhan & Ardiansyah
- * @version 1.4
+ *menyatakan class Guest
+ *dimana terdapat nama
  * 
- *          menyatakan class Guest
- *          dimana terdapat nama
+ *@author Furqan Ramadhan & Ardiansyah 
+ *@version 1.4
  */
 public class Guest {
     private String nama;

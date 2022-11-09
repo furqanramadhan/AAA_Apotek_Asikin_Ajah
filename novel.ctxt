@@ -1,10 +1,10 @@
 #BlueJ class context
 comment0.target=novel
-comment0.text=\n\ menyatakan\ class\ bernama\ novel\ serta\ extends.\n\ yaitu\ inheritance\ dari\ abstractnovel.\n
+comment0.text=\r\nmenyatakan\ class\ bernama\ novel\ serta\ extends.\r\n\ yaitu\ inheritance\ dari\ class\ novel\ yang\ bersifat\ abstrak.\r\n\ \r\n\ @author\ Furqan\ Ramadhan\ &\ Ardiansyah\ \r\n\ @version\ 1.6\ \ \ \ \ \ \ \ \ \r\n
 comment1.params=judul\ kodeBuku\ pengarang\ genre
 comment1.target=novel(java.lang.String,\ int,\ java.lang.String,\ java.lang.String)
-comment1.text=\n\ \n\ @param\ judul\ \ \ \ \ method\ constructor\ untuk\ menginisialisasikan\ judul.\n\ @param\ kodeBuku\ \ method\ constructor\ untuk\ menginisialisasikan\ KodeBuku.\n\ @param\ pengarang\ method\ constructor\ untuk\ menginisialisasikan\ pengarang.\n\ @param\ genre\ \ \ \ \ method\ constructor\ untuk\ menginisialisasikan\ genre.\n
+comment1.text=\r\n\ \r\n\ @param\ judul\ \ \ \ \ method\ constructor\ untuk\ menginisialisasikan\ judul.\r\n\ @param\ kodeBuku\ \ method\ constructor\ untuk\ menginisialisasikan\ KodeBuku.\r\n\ @param\ pengarang\ method\ constructor\ untuk\ menginisialisasikan\ pengarang.\r\n\ @param\ genre\ \ \ \ \ method\ constructor\ untuk\ menginisialisasikan\ genre.\r\n
 comment2.params=
 comment2.target=java.lang.String\ getgenre()
-comment2.text=\n\ \n\ @return\ method\ accessor\ untuk\ mengembalikan\ genre\ kedalam\ buku.\n
+comment2.text=\r\n\ \r\n\ @return\ method\ accessor\ untuk\ mengembalikan\ genre\ kedalam\ buku.\r\n
 numComments=3
