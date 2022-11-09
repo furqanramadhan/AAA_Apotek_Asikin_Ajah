@@ -21,15 +21,11 @@ public class mainPustaka {
         System.out.println("Masukkan pilihan: ");
         opsi = sc.nextInt();
 
-        System.out.println("SELAMAT DATANG DI PERPUSTAKAAN");
-        System.out.println("Masukkan nama pengunjung: ");
-        namaPengunjung = sc.nextLine();
-
-        System.out.println("Apakah anda ingin meminjam atau mengembalikan buku?");
-        System.out.println("1. Meminjam");
-        System.out.println("2. Kembalikan");
-        System.out.println("Masukkan pilihan: ");
-        opsi = sc.nextInt();
+        while (opsi > 2 || opsi < 1) {
+            System.out.println("Masukkan pilihan dengan benar!");
+            System.out.println("Masukkan pilihan: ");
+            opsi = sc.nextInt();
+        }
 
         // Memberi list buku
         novel n1 = new novel("Jurnal Risa", 0101, "Risa Saraswati", "Horror");
@@ -47,5 +43,6 @@ public class mainPustaka {
         sejarah sj3 = new sejarah("The History of the Ancient World", 0303, "W. W. Norton & Company", "General");
         sejarah sj4 = new sejarah("Percakapan Dengan Stalin", 0304, "Milovan Djilas", "Philosophy");
 
+        switch ()
     }
 }

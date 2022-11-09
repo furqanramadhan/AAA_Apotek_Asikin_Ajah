@@ -31,5 +31,5 @@ public abstract class book {
         return this.pengarang;
     }
 
-    abstract void available();
+    //abstract void available();
 }
