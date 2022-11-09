@@ -1,9 +1,19 @@
+/**
+ * menyatakan class bernama book serta extends.
+ * yaitu inheritance dari abstractbook.
+ */
 public abstract class book {
 
     private String judul;
     private int kodeBuku;
     private String pengarang;
 
+    /**
+     * 
+     * @param judul     method constructor untuk menginisialisasikan judul.
+     * @param kodeBuku  method constructor untuk menginisialisasikan KodeBuku.
+     * @param pengarang method constructor untuk menginisialisasikan pengarang.
+     */
     public book(String judul, int kodeBuku, String pengarang) {
         this.judul = judul;
         this.kodeBuku = kodeBuku;
@@ -31,5 +41,5 @@ public abstract class book {
         return this.pengarang;
     }
 
-    //abstract void available();
+    // abstract void available();
 }
