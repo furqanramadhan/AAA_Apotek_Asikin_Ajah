@@ -1,18 +1,30 @@
-
 /**
- * Write a description of class abstrackBuku here.
- *
- * @author (your name)
- * @version (a version number or a date)
+ * Menyatakan Class Bernama abstractBuku
+ * Untuk Menentukan Classnya
+ * 
+ * @author Furqan Ramadhan & Ardiansyah
+ * @version 1.2
  */
 public abstract class abstractBuku {
-    // instance variables - replace the example below with your own
-
-        
+    /**
+     * 
+     * @return method accessor getjudul untuk mengembalikan judul dari buku
+     */
     public abstract String getJudul();
 
+    /**
+     * 
+     * @return method accessor getKodeBuku untuk mengembalikan kode dari buku
+     */
     public abstract int getKodeBuku();
 
+    /**
+     * 
+     * @return method accessor getPengarang untuk mengembalikan nama pengarang
+     */
     public abstract String getPengarang();
+    /**
+     * method getPengarang untuk menyatakan class Pengarang
+     */
 
 }
