@@ -2,12 +2,34 @@ import java.util.Scanner;
 
 public class mainPustaka {
     public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
         String namaPengunjung;
         int opsi = 0;
         int waktuPinjam;
         int borrow;
 
-        Scanner sc = new Scanner(System.in);
+        Guest guest;
+
+        System.out.println("SELAMAT DATANG DI PERPUSTAKAAN");
+        System.out.println("Masukkan nama pengunjung: ");
+        namaPengunjung = sc.nextLine();
+        guest = new Guest(namaPengunjung);
+
+        System.out.println("Apakah anda ingin meminjam atau mengembalikan buku?");
+        System.out.println("1. Meminjam");
+        System.out.println("2. Kembalikan");
+        System.out.println("Masukkan pilihan: ");
+        opsi = sc.nextInt();
+
+        System.out.println("SELAMAT DATANG DI PERPUSTAKAAN");
+        System.out.println("Masukkan nama pengunjung: ");
+        namaPengunjung = sc.nextLine();
+
+        System.out.println("Apakah anda ingin meminjam atau mengembalikan buku?");
+        System.out.println("1. Meminjam");
+        System.out.println("2. Kembalikan");
+        System.out.println("Masukkan pilihan: ");
+        opsi = sc.nextInt();
 
         // Memberi list buku
         novel n1 = new novel("Jurnal Risa", 0101, "Risa Saraswati", "Horror");
@@ -24,17 +46,6 @@ public class mainPustaka {
         sejarah sj2 = new sejarah("Sapiens", 0302, "Yuval Noah Harari", "History of humans");
         sejarah sj3 = new sejarah("The History of the Ancient World", 0303, "W. W. Norton & Company", "General");
         sejarah sj4 = new sejarah("Percakapan Dengan Stalin", 0304, "Milovan Djilas", "Philosophy");
-
-        // insert guest
-        System.out.println("SELAMAT DATANG DI PERPUSTAKAAN");
-        System.out.println("Masukkan nama pengunjung: ");
-        nama = sc.nextLine();
-
-        System.out.println("Apakah anda ingin meminjam atau mengembalikan buku?");
-        System.out.println("1. Meminjam");
-        System.out.println("2. Kembalikan");
-        System.out.println("Masukkan pilihan: ");
-        opsi = sc.nextInt();
 
     }
 }
