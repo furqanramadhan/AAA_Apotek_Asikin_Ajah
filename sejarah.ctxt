@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=sejarah
+comment0.text=\n\ menyatakan\ class\ bernama\ sejarah\ serta\ extends.\n\ yaitu\ inheritance\ dari\ abstractsejarah.\n
+comment1.params=judul\ kodeBuku\ pengarang\ history
+comment1.target=sejarah(java.lang.String,\ int,\ java.lang.String,\ java.lang.String)
+comment1.text=\n\ \n\ @param\ judul\ \ \ \ \ method\ constructor\ untuk\ menginisialisasikan\ judul.\n\ @param\ kodeBuku\ \ method\ constructor\ untuk\ menginisialisasikan\ KodeBuku.\n\ @param\ pengarang\ method\ constructor\ untuk\ menginisialisasikan\ pengarang.\n\ @param\ history\ \ \ method\ constructor\ untuk\ menginisialisasikan\ history.\n
+comment2.params=
+comment2.target=java.lang.String\ getHistory()
+comment2.text=\n\ \n\ @return\ method\ accessor\ untuk\ mengembalikan\ History\ kedalam\ buku.\n
+numComments=3

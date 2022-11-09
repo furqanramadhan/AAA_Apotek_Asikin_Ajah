@@ -2,7 +2,7 @@
  * menyatakan class bernama sains serta extends.
  * yaitu inheritance dari abstractsains.
  */
-public class sains extends buku {
+public class sains extends book {
     private String mk;
 
     /**

@@ -1,26 +1,13 @@
-/**
- * menyatakan class bernama buku serta extends.
- * yaitu inheritance dari abstractBuku.
- * 
- * @author Furqan Ramadhan & Ardiansyah
- * @version 1.3
- */
-public class buku extends abstractBuku {
+public abstract class book {
+
     private String judul;
     private int kodeBuku;
     private String pengarang;
 
-    /**
-     * 
-     * @param judul     method constructor untuk menginisialisasikan judul.
-     * @param kodeBuku  method constructor untuk menginisialisasikan kodeBuku.
-     * @param pengarang method constructor untuk menginisialisasikan pengarang.
-     */
-    public buku(String judul, int kodeBuku, String pengarang) {
+    public book(String judul, int kodeBuku, String pengarang) {
         this.judul = judul;
         this.kodeBuku = kodeBuku;
         this.pengarang = pengarang;
-
     }
 
     /**
@@ -44,4 +31,5 @@ public class buku extends abstractBuku {
         return this.pengarang;
     }
 
+    abstract void available();
 }

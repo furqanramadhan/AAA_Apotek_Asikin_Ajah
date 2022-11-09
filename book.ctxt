@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=book
+comment1.params=judul\ kodeBuku\ pengarang
+comment1.target=book(java.lang.String,\ int,\ java.lang.String)
+comment2.params=
+comment2.target=java.lang.String\ getJudul()
+comment2.text=\n\ @return\ method\ accessor\ untuk\ mengembalikan\ judul\ kedalam\ buku.\n
+comment3.params=
+comment3.target=int\ getKodeBuku()
+comment3.text=\n\ @return\ method\ accessor\ untuk\ mengembalikan\ kode\ buku\ kedalam\ buku.\n
+comment4.params=
+comment4.target=java.lang.String\ getPengarang()
+comment4.text=\n\ @return\ method\ accessor\ untuk\ mengembalikan\ pengarang\ kedalam\ buku.\n
+numComments=5

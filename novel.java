@@ -2,7 +2,7 @@
  * menyatakan class bernama novel serta extends.
  * yaitu inheritance dari abstractnovel.
  */
-public class novel extends buku {
+public class novel extends book {
     private String genre;
 
     /**

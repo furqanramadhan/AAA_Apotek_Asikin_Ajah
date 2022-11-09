@@ -9,8 +9,4 @@ public class Guest {
     public String getNama() {
         return this.nama;
     }
-
-    public void setNama() {
-        this.nama = nama;
-    }
 }

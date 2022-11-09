@@ -2,7 +2,7 @@
  * menyatakan class bernama sejarah serta extends.
  * yaitu inheritance dari abstractsejarah.
  */
-public class sejarah extends buku {
+public class sejarah extends book {
     private String history;
 
     /**

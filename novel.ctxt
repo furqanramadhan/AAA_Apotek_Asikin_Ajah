@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=novel
+comment0.text=\n\ menyatakan\ class\ bernama\ novel\ serta\ extends.\n\ yaitu\ inheritance\ dari\ abstractnovel.\n
+comment1.params=judul\ kodeBuku\ pengarang\ genre
+comment1.target=novel(java.lang.String,\ int,\ java.lang.String,\ java.lang.String)
+comment1.text=\n\ \n\ @param\ judul\ \ \ \ \ method\ constructor\ untuk\ menginisialisasikan\ judul.\n\ @param\ kodeBuku\ \ method\ constructor\ untuk\ menginisialisasikan\ KodeBuku.\n\ @param\ pengarang\ method\ constructor\ untuk\ menginisialisasikan\ pengarang.\n\ @param\ genre\ \ \ \ \ method\ constructor\ untuk\ menginisialisasikan\ genre.\n
+comment2.params=
+comment2.target=java.lang.String\ getgenre()
+comment2.text=\n\ \n\ @return\ method\ accessor\ untuk\ mengembalikan\ genre\ kedalam\ buku.\n
+numComments=3
