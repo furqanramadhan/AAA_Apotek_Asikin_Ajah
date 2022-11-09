@@ -5,8 +5,8 @@ public class pustaka {
     public static void main(String[] args) {
 
         String nama;
-        int aksi, lamaPinjam, pinjam = 1, kembali;
-
+        int aksi, lamaPinjam, pinjam = 1;
+        int kembali = 0;
         Scanner input = new Scanner(System.in);
 
         novel n1 = new novel("Jurnal Risa", 0101, "Risa Saraswati", "Horror");
@@ -125,9 +125,7 @@ public class pustaka {
                     System.out.println(" Lama Peminjaman : Tujuh Hari");
                     break;
             }
-        }
-
-        else if (aksi == 2) {
+        } else if (aksi == 2) {
 
             System.out.println("Daftar Buku :");
 
@@ -145,10 +143,16 @@ public class pustaka {
             System.out.println("10. " + sj2.getJudul());
             System.out.println("11. " + sj3.getJudul());
             System.out.println("12. " + sj4.getJudul());
+            do {
+                System.out.println(" Buku mana yg ingin Anda pinjam?");
+                System.out.println(" Masukkan Pilihan Anda :");
+                kembali = input.nextInt();
 
-            System.out.println("Buku mana yg ingin Anda kembalikan?");
-            System.out.println("Masukkan Pilihan Anda :");
-            kembali = input.nextInt();
+                if (kembali > 12 && kembali < 1) {
+                    System.out.println("MAAF BUKU TIDAK TERSEDIA");
+                }
+
+            } while (kembali > 7 && kembali < 1);
 
             System.out.println(" Nama       : " + nama);
             System.out.println(" Kegiatan   : Mengembalikan buku");
@@ -189,9 +193,9 @@ public class pustaka {
                 case 12:
                     System.out.println(" Judul buku : " + sj4.getJudul());
                     break;
-
             }
         }
+
         System.out.println(" \nTerima Kasih telah berkunjung\n ");
         input.close();
     }
