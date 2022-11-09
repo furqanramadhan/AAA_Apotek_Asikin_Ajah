@@ -136,10 +136,15 @@ public class pustaka {
             System.out.println(" 3. " + n3.getJudul());
             System.out.println(" 4. " + n4.getJudul());
 
-            System.out.println(" 5. " + inf1.getjudul());
-            System.out.println(" 5. " + inf2.getjudul());
-            System.out.println(" 6. " + umum1.getjudul());
-            System.out.println(" 7. " + umum2.getjudul());
+            System.out.println(" 5. " + s1.getJudul());
+            System.out.println(" 6. " + s2.getJudul());
+            System.out.println(" 7. " + s3.getJudul());
+            System.out.println(" 8. " + s4.getJudul());
+
+            System.out.println(" 9. " + sj1.getJudul());
+            System.out.println("10. " + sj2.getJudul());
+            System.out.println("11. " + sj3.getJudul());
+            System.out.println("12. " + sj4.getJudul());
 
             System.out.println("Buku mana yg ingin Anda kembalikan?");
             System.out.println("Masukkan Pilihan Anda :");
@@ -149,25 +154,40 @@ public class pustaka {
             System.out.println(" Kegiatan   : Mengembalikan buku");
             switch (kembali) {
                 case 1:
-                    System.out.println(" Judul buku : " + n1.getjudul());
+                    System.out.println(" Judul buku : " + n1.getJudul());
                     break;
                 case 2:
-                    System.out.println(" Judul buku : " + n2.getjudul());
+                    System.out.println(" Judul buku : " + n2.getJudul());
                     break;
                 case 3:
-                    System.out.println(" Judul buku : " + n3.getjudul());
+                    System.out.println(" Judul buku : " + n3.getJudul());
                     break;
                 case 4:
-                    System.out.println(" Judul buku : " + inf1.getjudul());
+                    System.out.println(" Judul buku : " + n4.getJudul());
                     break;
                 case 5:
-                    System.out.println(" Judul buku : " + inf2.getjudul());
+                    System.out.println(" Judul buku : " + s1.getJudul());
                     break;
                 case 6:
-                    System.out.println(" Judul buku : " + umum1.getjudul());
+                    System.out.println(" Judul buku : " + s2.getJudul());
                     break;
                 case 7:
-                    System.out.println(" Judul buku : " + umum2.getjudul());
+                    System.out.println(" Judul buku : " + s3.getJudul());
+                    break;
+                case 8:
+                    System.out.println(" Judul buku : " + s4.getJudul());
+                    break;
+                case 9:
+                    System.out.println(" Judul buku : " + sj1.getJudul());
+                    break;
+                case 10:
+                    System.out.println(" Judul buku : " + sj2.getJudul());
+                    break;
+                case 11:
+                    System.out.println(" Judul buku : " + sj3.getJudul());
+                    break;
+                case 12:
+                    System.out.println(" Judul buku : " + sj4.getJudul());
                     break;
 
             }
