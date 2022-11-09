@@ -44,21 +44,21 @@ public class pustaka {
             System.out.println(" 3. " + n3.getJudul());
             System.out.println(" 4. " + n4.getJudul());
 
-            System.out.println(" 1. " + s1.getJudul());
-            System.out.println(" 2. " + s2.getJudul());
-            System.out.println(" 3. " + s3.getJudul());
-            System.out.println(" 4. " + s4.getJudul());
+            System.out.println(" 5. " + s1.getJudul());
+            System.out.println(" 6. " + s2.getJudul());
+            System.out.println(" 7. " + s3.getJudul());
+            System.out.println(" 8. " + s4.getJudul());
 
-            System.out.println(" 1. " + sj1.getJudul());
-            System.out.println(" 2. " + sj2.getJudul());
-            System.out.println(" 3. " + sj3.getJudul());
-            System.out.println(" 4. " + sj4.getJudul());
+            System.out.println(" 9. " + sj1.getJudul());
+            System.out.println("10. " + sj2.getJudul());
+            System.out.println("11. " + sj3.getJudul());
+            System.out.println("12. " + sj4.getJudul());
             do {
                 System.out.println(" Buku mana yg ingin Anda pinjam?");
                 System.out.println(" Masukkan Pilihan Anda :");
                 pinjam = input.nextInt();
 
-                if (pinjam > 7 && pinjam < 1) {
+                if (pinjam > 12 && pinjam < 1) {
                     System.out.println("MAAF BUKU TIDAK TERSEDIA");
                 }
 
@@ -131,11 +131,12 @@ public class pustaka {
 
             System.out.println("Daftar Buku :");
 
-            System.out.println(" 1. " + n1.getjudul());
-            System.out.println(" 2. " + n2.getjudul());
-            System.out.println(" 3. " + n3.getjudul());
+            System.out.println(" 1. " + n1.getJudul());
+            System.out.println(" 2. " + n2.getJudul());
+            System.out.println(" 3. " + n3.getJudul());
+            System.out.println(" 4. " + n4.getJudul());
 
-            System.out.println(" 4. " + inf1.getjudul());
+            System.out.println(" 5. " + inf1.getjudul());
             System.out.println(" 5. " + inf2.getjudul());
             System.out.println(" 6. " + umum1.getjudul());
             System.out.println(" 7. " + umum2.getjudul());
