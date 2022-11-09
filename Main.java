@@ -1,12 +1,17 @@
 import java.util.Scanner;
 
+/**
+ * Menyatakan class bernama Main sebagai class utama
+ * untuk menjalankan perpustakaan.
+ * 
+ * @author Furqan Ramadhan
+ * @version 1,5
+ */
 public class Main {
     public Main() {
     }
 
-    /**
-     * 
-     */
+    // Menyatakan fungsi runApp untuk menjalankan program utama
     public void runApp() {
         novel n1 = new novel("Jurnal Risa", 0101, "Risa Saraswati", "Horror");
         novel n2 = new novel("Angkasa dan 56 Hati", 0102, "Destashsya", "Romance");
@@ -169,6 +174,7 @@ public class Main {
     }
 
     public static void main(String[] args) {
+        System.out.println("========SELAMAT DATANG DI PERPUSTAKAAN========");
         Main runApp = new Main();
         runApp.runApp();
     }
