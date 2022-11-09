@@ -5,7 +5,6 @@ public class main {
     }
 
     public void runApp() {
-
         novel n1 = new novel("Jurnal Risa", 0101, "Risa Saraswati", "Horror");
         novel n2 = new novel("Angkasa dan 56 Hati", 0102, "Destashsya", "Romance");
         novel n3 = new novel("Harry Potter", 0103, "J. K. Rowling", "Fantasy");
@@ -23,11 +22,13 @@ public class main {
 
         Scanner sc = new Scanner(System.in);
         int option;
-        char confirm;
+        char pil;
         int borrow;
         Guest guest;
         int returnBook;
+        int lamaPinjam;
         String nama;
+        String[] buku = new String[12];
 
         System.out.println("Masukkan nama : ");
         nama = sc.nextLine();
@@ -57,35 +58,107 @@ public class main {
                 System.out.println("11. " + sj3.getJudul());
                 System.out.println("12. " + sj4.getJudul());
 
+                buku[0] = n1.getJudul();
+                buku[1] = n2.getJudul();
+                buku[2] = n3.getJudul();
+                buku[3] = n4.getJudul();
+                buku[4] = s1.getJudul();
+                buku[5] = s2.getJudul();
+                buku[6] = s3.getJudul();
+                buku[7] = s4.getJudul();
+                buku[8] = sj1.getJudul();
+                buku[9] = sj2.getJudul();
+                buku[10] = sj3.getJudul();
+                buku[11] = sj4.getJudul();
+
                 boolean lanjut = true;
                 while (lanjut) {
-                    System.out.println("Buku mana yang ingin dipinjam?");
-                    System.out.println("Masukkan pilihan: ");
-                    borrow = sc.nextInt();
-
-                    while (borrow > 12 || borrow < 1) {
-                        System.out.println("Pilihan salah!");
-                        System.out.println("Masukkan pilihan : ");
-
-                        borrow = sc.nextInt();
-
-                    }
-                    char pil;
-
-                    System.out.println("Apakah anda ingin meminjam buku ??? : ");
+                    System.out.println("Apakah anda ingin melakukan peminjaman ??? : (y/n)");
                     pil = sc.next().charAt(0);
                     if (pil == 'y' || pil == 'Y') {
-                        for()
-                    } else {
+                        for (int i = 0; i < 12; i++) {
+                            System.out.print("Pilih buku yang mana : ");
+                            borrow = sc.nextInt();
+                            System.out.print("Berapa hari?? : ");
+                            lamaPinjam = sc.nextInt();
+                            System.out.println("Oke, buku yang anda pinjam adalah : " + buku[borrow - 1]);
+                            System.out.println("Waktu peminjaman adalah: " + lamaPinjam + " hari");
+                            System.out.println("");
+                            System.out.println("Apakah anda ingin melanjutkan??? (y/n)");
+                            pil = sc.next().charAt(0);
+                            if (pil == 'y' || pil == 'Y') {
+                                continue;
+                            } else {
+                                System.out.println("Terima kasih sudah mampir.");
+                                System.exit(0);
+                            }
+                        }
+                    } else if (pil == 'n' || pil == 'N') {
                         lanjut = false;
-                        break;
+                        System.out.println("Terima kasih sudah mampir.");
+                        System.exit(0);
+                    } else {
+                        System.out.println("Pilih Y/N....!!!!!");
+                        continue;
                     }
 
                 }
 
             case 2:
-
+                buku[0] = n1.getJudul();
+                buku[1] = n2.getJudul();
+                buku[2] = n3.getJudul();
+                buku[3] = n4.getJudul();
+                buku[4] = s1.getJudul();
+                buku[5] = s2.getJudul();
+                buku[6] = s3.getJudul();
+                buku[7] = s4.getJudul();
+                buku[8] = sj1.getJudul();
+                buku[9] = sj2.getJudul();
+                buku[10] = sj3.getJudul();
+                buku[11] = sj4.getJudul();
+                System.out.println("Buku yang tersedia: ");
+                System.out.println(" 1. " + n1.getJudul());
+                System.out.println(" 2. " + n2.getJudul());
+                System.out.println(" 3. " + n3.getJudul());
+                System.out.println(" 4. " + n4.getJudul());
+                System.out.println(" 5. " + s1.getJudul());
+                System.out.println(" 6. " + s2.getJudul());
+                System.out.println(" 7. " + s3.getJudul());
+                System.out.println(" 8. " + s4.getJudul());
+                System.out.println(" 9. " + sj1.getJudul());
+                System.out.println("10. " + sj2.getJudul());
+                System.out.println("11. " + sj3.getJudul());
+                System.out.println("12. " + sj4.getJudul());
+                System.out.println("Apakah anda ingin melakukan pengembalian ? : (y/n)");
+                pil = sc.next().charAt(0);
+                while (true) {
+                    if (pil == 'y' || pil == 'Y') {
+                        for (int i = 0; i < 12; i++) {
+                            System.out.print("Buku mana yang ingin dikembalikan? : ");
+                            borrow = sc.nextInt();
+                            System.out.println("Oke, buku yang anda kembalikan adalah : " + buku[borrow - 1]);
+                            System.out.println("");
+                            System.out.println("Apakah anda ingin melanjutkan??? (y/n)");
+                            pil = sc.next().charAt(0);
+                            if (pil == 'y' || pil == 'Y') {
+                                continue;
+                            } else {
+                                System.out.println("Terima kasih sudah mampir.");
+                                System.exit(0);
+                            }
+                        }
+                    } else if (pil == 'n' || pil == 'N') {
+                        lanjut = false;
+                        System.out.println("Terima kasih sudah mampir.");
+                        System.exit(0);
+                    } else {
+                        System.out.println("Pilih Y/N....!!!!!");
+                        continue;
+                    }
+                }
             case 3:
+                System.out.println("Terima kasih sudah mampir.");
                 System.exit(1);
         }
     }
