@@ -1,5 +1,5 @@
 /**
- * menyatakan class bernama buku sert extends,
+ * menyatakan class bernama buku serta extends.
  * yaitu inheritance dari abstractBuku.
  * 
  * @author Furqan Ramadhan & Ardiansyah
